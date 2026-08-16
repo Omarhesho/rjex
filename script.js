@@ -11,7 +11,7 @@ const ORDER_EMAIL = "rjex134@gmail.com";
 const products = [
   {id:1, category:'drinks', name:'موخيتو ليمون ونعناع', description:'ليمون منعش مع النعناع الطازج ولمسة غازية خفيفة، طعم منعش ومثالي لأي وقت.', price:35, image:'mojito-lemon-mint.jpeg'},
   {id:2, category:'drinks', name:'موخيتو توت', description:'مزيج منعش من التوت والليمون والنعناع، بطعم فاكهي لذيذ ولمسة منعشة.', price:40, image:'mojito berry.jpeg'},
-  {id:3, category:'drinks', name:'موخيتو فراولة', description:'فراولة حلوة ومنعشة مع الليمون والنعناع، تركيبة خفيفة بطعم فاكهي مميز.', price:40, image:''},
+  {id:3, category:'drinks', name:'موخيتو فراولة', description:'فراولة حلوة ومنعشة مع الليمون والنعناع، تركيبة خفيفة بطعم فاكهي مميز.', price:40, image:'mohito strawberry.jpeg'},
   {id:4, category:'drinks', name:'فخفخيتو', description:'مزيج مثلج من آيس كريم التوت، كولا بطعم التوت، النعناع والثلج، لطعم فاكهي بارد ومنعش.', price:45, image:'fakfakhito.jpeg'},
   {id:5, category:'noodles', name:'اندومي خضار حار', description:'اندومي بنكهة الخضار الحارة، بطعم غني وتتبيلة حارة لعشاق النكهة القوية.', price:20, image:'indomie-vegetable-spicy.jpeg'},
   {id:6, category:'noodles', name:'اندومي خضار', description:'اندومي بنكهة الخضار بطعم متوازن وتتبيلة لذيذة، من غير حرارة.', price:20, image:'indomie-vegetable.jpeg'},
