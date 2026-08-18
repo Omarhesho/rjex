@@ -6,19 +6,19 @@
   3) On first real submission, FormSubmit may ask you to confirm/activate the email.
 */
 
-const ORDER_EMAIL = "PUT_YOUR_EMAIL_HERE@example.com";
+const ORDER_EMAIL = "rjex134@gmail.com";
 
 const products = [
   {id:1, category:'drinks', name:'موخيتو ليمون ونعناع', description:'ليمون منعش مع النعناع الطازج ولمسة غازية خفيفة، طعم منعش ومثالي لأي وقت.', price:35, image:'assets/mojito-lemon-mint.jpeg'},
-  {id:2, category:'drinks', name:'موخيتو توت', description:'مزيج منعش من التوت والليمون والنعناع، بطعم فاكهي لذيذ ولمسة منعشة.', price:40, image:'assets/mojito-berry.jpeg'},
-  {id:3, category:'drinks', name:'موخيتو فراولة', description:'فراولة حلوة ومنعشة مع الليمون والنعناع، تركيبة خفيفة بطعم فاكهي مميز.', price:40, image:'assets/mojito-strawberry.jpeg'},
-  {id:4, category:'drinks', name:'فخفخيتو', description:'مزيج مثلج من آيس كريم التوت، كولا بطعم التوت، النعناع والثلج، لطعم فاكهي بارد ومنعش.', price:45, image:'assets/fakfakhito.jpeg'},
-  {id:5, category:'noodles', name:'اندومي خضار حار', description:'اندومي بنكهة الخضار الحارة، بطعم غني وتتبيلة حارة لعشاق النكهة القوية.', price:20, image:'assets/indomie-vegetable-spicy.jpeg'},
-  {id:6, category:'noodles', name:'اندومي خضار', description:'اندومي بنكهة الخضار بطعم متوازن وتتبيلة لذيذة، من غير حرارة.', price:20, image:'assets/indomie-vegetable.jpeg'},
-  {id:7, category:'noodles', name:'اندومي فراخ', description:'اندومي بنكهة الفراخ، بتتبيلة شهية وطعم غني ومميز.', price:20, image:'assets/indomie-chicken.jpeg'},
-  {id:8, category:'noodles', name:'اندومي لحمة', description:'اندومي بنكهة اللحمة، بتتبيلة لذيذة وطعم غني يناسب محبي النكهات القوية.', price:20, image:'assets/indomie-meat.jpeg'},
-  {id:9, category:'popcorn', name:'فشار بالملح', description:'فشار خفيف ومقرمش بنكهة الملح الكلاسيكية، سناك بسيط ولذيذ في أي وقت.', price:10, image:'assets/popcorn-salt.jpeg'},
-  {id:10, category:'popcorn', name:'فشار بالكراميل', description:'فشار مقرمش مغطى بطبقة كراميل حلوة، بطعم غني ومميز لعشاق النكهة الحلوة.', price:15, image:'assets/popcorn-caramel.jpeg'}
+  {id:2, category:'drinks', name:'موخيتو توت', description:'مزيج منعش من التوت والليمون والنعناع، بطعم فاكهي لذيذ ولمسة منعشة.', price:40, image:'asset/mojito-berry.jpeg'},
+  {id:3, category:'drinks', name:'موخيتو فراولة', description:'فراولة حلوة ومنعشة مع الليمون والنعناع، تركيبة خفيفة بطعم فاكهي مميز.', price:40, image:'asset/mohito-strawberry.jpeg'},
+  {id:4, category:'drinks', name:'فخفخيتو', description:'مزيج مثلج من آيس كريم التوت، كولا بطعم التوت، النعناع والثلج، لطعم فاكهي بارد ومنعش.', price:45, image:'asset/fakfakhito.jpeg'},
+  {id:5, category:'noodles', name:'اندومي خضار حار', description:'اندومي بنكهة الخضار الحارة، بطعم غني وتتبيلة حارة لعشاق النكهة القوية.', price:20, image:'asset/indomie-vegetable-spicy.jpeg'},
+  {id:6, category:'noodles', name:'اندومي خضار', description:'اندومي بنكهة الخضار بطعم متوازن وتتبيلة لذيذة، من غير حرارة.', price:20, image:'asset/indomie-vegetable.jpeg'},
+  {id:7, category:'noodles', name:'اندومي فراخ', description:'اندومي بنكهة الفراخ، بتتبيلة شهية وطعم غني ومميز.', price:20, image:'asset/indomie-chicken.jpeg'},
+  {id:8, category:'noodles', name:'اندومي لحمة', description:'اندومي بنكهة اللحمة، بتتبيلة لذيذة وطعم غني يناسب محبي النكهات القوية.', price:20, image:'asset/indomie-meat.jpeg'},
+  {id:9, category:'popcorn', name:'فشار بالملح', description:'فشار خفيف ومقرمش بنكهة الملح الكلاسيكية، سناك بسيط ولذيذ في أي وقت.', price:10, image:'asset/popcorn-salt.jpeg'},
+  {id:10, category:'popcorn', name:'فشار بالكراميل', description:'فشار مقرمش مغطى بطبقة كراميل حلوة، بطعم غني ومميز لعشاق النكهة الحلوة.', price:15, image:'asset/popcorn-caramel.jpeg'}
 ];
 
 let cart = [];
