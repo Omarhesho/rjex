@@ -264,7 +264,7 @@ async function submitOrder(event) {
     return;
   }
 
-  if (ORDER_EMAIL.includes('rjex134@gmail.com')) {
+  if (ORDER_EMAIL.includes('PUT_YOUR_EMAIL_HERE')) {
     setError('لسه محتاج تحط إيميل RJEX في أول ملف script.js.');
     return;
   }
