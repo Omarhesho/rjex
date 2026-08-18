@@ -6,7 +6,7 @@
   3) On first real submission, FormSubmit may ask you to confirm/activate the email.
 */
 
-const ORDER_EMAIL = "PUT_YOUR_EMAIL_HERE@example.com";
+const ORDER_EMAIL = "rjex134@gmail.com";
 
 const products = [
   {id:1, category:'drinks', name:'موخيتو ليمون ونعناع', description:'ليمون منعش مع النعناع الطازج ولمسة غازية خفيفة، طعم منعش ومثالي لأي وقت.', price:35, image:'asset/mojito-lemon-mint.jpeg'},
