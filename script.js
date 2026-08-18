@@ -264,11 +264,6 @@ async function submitOrder(event) {
     return;
   }
 
-  if (!locationData) {
-    setError('حدد موقعك أولًا من زر "تحديد موقعي".');
-    return;
-  }
-
   if (ORDER_EMAIL.includes('PUT_YOUR_EMAIL_HERE')) {
     setError('لسه محتاج تحط إيميل RJEX في أول ملف script.js.');
     return;
