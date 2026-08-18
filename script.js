@@ -219,13 +219,21 @@ function buildOrderText(customer) {
     }),
     '',
     `الإجمالي: ${getCartTotal()} جنيه`,
-    '',
-    'الموقع:',
-    `Latitude: ${locationData.latitude}`,
-    `Longitude: ${locationData.longitude}`,
-    `الدقة التقريبية: ${locationData.accuracy} متر`,
-    `رابط الخريطة: https://www.google.com/maps?q=${locationData.latitude},${locationData.longitude}`
+    ''
   ];
+
+  // الموقع اختياري
+  if (locationData) {
+    lines.push(
+      'الموقع:',
+      `Latitude: ${locationData.latitude}`,
+      `Longitude: ${locationData.longitude}`,
+      `الدقة التقريبية: ${locationData.accuracy} متر`,
+      `رابط الخريطة: https://www.google.com/maps?q=${locationData.latitude},${locationData.longitude}`
+    );
+  } else {
+    lines.push('الموقع: لم يتم تحديد الموقع');
+  }
 
   return lines.join('\n');
 }
@@ -253,11 +261,6 @@ async function submitOrder(event) {
   if (address.length < 5) {
     setError('اكتب عنوان التوصيل بالتفصيل.');
     $('#customerAddress').focus();
-    return;
-  }
-
-  if (!locationData) {
-    setError('حدد موقعك أولًا من زر "تحديد موقعي".');
     return;
   }
 
