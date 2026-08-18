@@ -19,7 +19,8 @@ const products = [
   {id:8, category:'noodles', name:'اندومي لحمة', description:'اندومي بنكهة اللحمة، بتتبيلة لذيذة وطعم غني يناسب محبي النكهات القوية.', price:20, image:'asset/indomie-meat.jpeg'},
   {id:9, category:'popcorn', name:'فشار بالملح', description:'فشار خفيف ومقرمش بنكهة الملح الكلاسيكية، سناك بسيط ولذيذ في أي وقت.', price:10, image:'asset/popcorn-salt.jpeg'},
   {id:10, category:'popcorn', name:'فشار بالكراميل', description:'فشار مقرمش مغطى بطبقة كراميل حلوة، بطعم غني ومميز لعشاق النكهة الحلوة.', price:15, image:'asset/popcorn-caramel.jpeg'}
-  {id:10, category:'popcorn', name:'Iced coffee', description:'انتعاش بارد يعدّل مزاجك! 🧊☕️قهوة مثلجة كلاسيكية، تجمع بين النكهة الغنية والانتعاش المثالي لتجديد طاقتك ونشاطك في أي وقت من اليوم.', price:35, image:'asset/popcorn-caramel.jpeg'}
+  {id:10, category:'popcorn', name:'Iced coffee', description:'انتعاش بارد يعدّل مزاجك! 🧊☕️قهوة مثلجة كلاسيكية، تجمع بين النكهة الغنية والانتعاش المثالي لتجديد طاقتك ونشاطك في أي وقت من اليوم.', price:35, image:'asset/iced-coffee.jpeg
+'}
 ];
 
 let cart = [];
