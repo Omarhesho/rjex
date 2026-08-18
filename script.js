@@ -162,7 +162,7 @@ function requestLocation() {
   const button = $('#locationBtn');
 
   if (!navigator.geolocation) {
-    status.textContent = 'المتصفح لا يدعم تحديد الموقع.';
+    status.textContent = 'تعذر تحديد الموقع، ويمكنك إكمال الطلب بدونه.';
     return;
   }
 
@@ -191,9 +191,9 @@ function requestLocation() {
       button.classList.remove('done');
 
       if (error.code === 1) {
-        status.textContent = 'تم رفض إذن الموقع. اسمح بالموقع ثم حاول مرة أخرى.';
+        status.textContent = 'لم يتم السماح بالموقع، ويمكنك إكمال الطلب بدونه.';
       } else {
-        status.textContent = 'تعذر تحديد الموقع. حاول مرة أخرى.';
+        status.textContent = 'تعذر تحديد الموقع، ويمكنك إكمال الطلب بدونه.';
       }
     },
     {
